@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #ff0000, #0000ff);
+    transition: background 0.5s ease;
+}
+
+.controls {
+    position: absolute;
+    top: 60%;
+    left: 32%;
+    background: rgba(255, 255, 255, 0.5); /* Increased transparency */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.controls div {
+    margin-bottom: 10px;
+}
+
+label {
+    margin-right: 10px;
+    color: #333; /* Darker color for better readability */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333; /* Darker color for better readability */
+}
